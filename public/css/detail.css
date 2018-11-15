@@ -1,0 +1,382 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.product{
+  width:1400px;
+  margin:0 auto;
+}
+#tab-list{
+  width:1400px;
+  border:1px sold red;
+}
+#list{
+  width:1400px;
+  border-bottom:1px solid #ccc;
+  clear:both;
+  display: flex;
+  justify-content: center;
+  margin:0;
+}
+#list li{
+   width:180px;
+  line-height: 75px;
+}
+#list li a{
+  display:block;
+  text-align: center;
+  font-size:24px;
+ }
+ #list li a:hover{color:#9E0028;text-decoration: none;}
+ #list .active{
+  border-bottom: 3px solid #9E0028;
+  color:#9E0028;
+ }
+ 
+ #tab-list .show{
+  display: block;
+ }
+ #tab-list .hidden{
+  display: none;
+ }
+ #tab-list div{
+  border-top: none;
+ }
+ /*商品详情*/
+ #content-item-1{
+   width:1400px;
+ }
+ #content-item-1>ul>li>img{
+   margin-left:350px;
+ }
+ /*商品评论*/
+ #content-item-2{
+   width:1400px;
+   height:600px;
+   clear:both; 
+ }
+ #content-item-2>ul{
+    width:1400px;
+    height:100px;
+    display: inline-block; 
+    border-bottom:1px solid #ccc;
+    margin:0;
+ }
+ #content-item-2>ul:first-child>li{
+  float: left;
+  width:100px;
+  font-size:20px;
+  margin-top:20px;
+  text-align: center;
+  position: relative;
+ }
+.li-left{
+  margin-left:500px;
+}
+#content-item-2>ul:first-child>li:first-child{
+  font-size:40px;
+  margin-top:5px;
+  color:#9E0028;
+  margin-left:100px;
+  text-align: right;
+}
+#content-item-2>ul:first-child>li:nth-child(2){
+  font-size:13px;
+  margin-left:10px;
+  width:60px;
+}
+.start-after{
+  color:#e2e2e2;
+}
+.start-before{
+  color:#ff9900;
+  position: absolute;
+  top:18px;
+  left:3px;
+  width:50%;   /*商品打分*/
+  overflow: hidden;
+
+}
+#content-item-2>ul:not(:first-child){
+  border-bottom:1px solid #ccc;
+  height:80px;
+}
+#content-item-2>ul:not(:first-child)>li:first-child{
+  margin-top:10px;
+  font-size:14px;
+  margin-left:110px;
+}
+#content-item-2>ul:not(:first-child)>li:nth-child(2){
+  font-size:14px;
+  margin-left:110px;
+}
+#content-item-2>ul:not(:first-child)>li:nth-child(3){
+  font-size:14px;
+  margin-left:110px;
+  position: relative;
+  width:60px;
+}
+#content-item-2>ul:not(:first-child)>li:last-child{
+  float: right;
+  display: block;
+  font-size:20px;
+  margin-right:250px;
+  margin-top:-50px;
+  width:200px;
+}
+
+
+/*保养须知*/
+#content-item-3{
+  width:1400px;
+  height:300px;
+  border:1px solid #ccc;
+  margin-bottom:300px;
+}
+#content-item-3>ul{
+  width:1100px;
+  margin:0 auto;
+}
+#content-item-3>ul>li:first-child{
+  font-size:30px;
+  margin:0;
+}
+#content-item-3>ul>li:not(first-child){
+  font-size:20px;
+  color:rgb(53, 51, 51);
+  margin-left:30px;
+}
+#content-item-3>ul>li>a{
+  text-decoration: none;
+}
+#content-item-3>ul>li>a:hover{
+  color:#9E0028;
+}
+/*售后*/
+#content-item-4{
+  width:1400px;
+  height:500px;
+}
+#content-item-4>p{
+  display: inline-block;
+  width:100%;
+  height:20px;
+  margin-left:0;
+  text-align: center;
+  margin-bottom:0;
+}
+#p-1{
+  color:#9E0028;
+  margin-top:25px;
+}
+#content-item-4>span{
+  display: inline-block;
+  width:100%;
+  height:80px;
+  border-bottom:1px solid #ccc;
+}
+#content-item-4>span>h2{
+  display: inline-block;
+  width:200px;
+  height:50px;
+  background-color: #fff;
+  text-align: center;
+  margin-top:55px;
+  margin-left:625px;
+}
+#content-item-4>span:last-child{
+  height:30px;
+}
+#content-item-4>span:last-child>h2{
+  margin-top:10px;
+}
+
+/*产品详细介绍*/
+.jieshao{
+  width:1400px;
+  height:300px;
+}
+.name{
+  width:1400px;
+  height:70px;
+}
+.name>span{
+  font-size:25px;
+  color:#424243;
+}
+div.price{
+  float: right;
+}
+div.price>span{
+  color:rgb(100, 96, 96);
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 15px;
+}
+div.price>span:nth-child(2){
+  font-size:45px;
+  color:#9E0028;
+  font-weight: 400;
+}
+.youhui{
+  width:300px;
+  height:20px;
+  margin-top:-5px;
+}
+.youhui>span:first-child{
+  color:#528ED2;
+  border:1px solid #528ED2;
+  display: inline-block;
+  font-size:10px;
+  height:100%;
+  width:30px;
+  margin:0px;
+}
+.youhui>span:last-child{
+  font-size:16px;
+  color:#9E0028;
+  display: inline-block;
+}
+/*详细说明*/
+.shuoming{
+  width:1400px;
+  height:150px;
+  background-color:rgb(248, 244, 244);
+  display: flex;
+  justify-content: space-between;
+}
+.shuoming>div:first-child{
+  border-right:1px solid #ccc;
+  margin-right: 0;
+  width:900px;
+  height:100%;
+}
+#xijie>table{
+  width:800px;
+  height:100px;
+  margin-left:50px;
+  margin-top:20px;
+  font-size:14px;
+  color:rgb(100, 96, 96);
+}
+.shuoming>div.danjia{
+  width:500px;
+  height:100%;
+}
+.shuoming>div.danjia>div{
+  margin-left:30px;
+  margin-bottom:10px;
+}
+.shuoming>div.danjia>div>span{
+  font-size:14px;
+  color:rgb(100, 96, 96);
+}
+.shuoming>div.danjia>div:first-child{
+  margin-top:20px;
+}
+.shuoming>div.danjia>div>a{
+  display: inline-block;
+  text-decoration: none;
+  width:60px;
+  height:25px;
+  border:1px solid #ccc;
+
+}
+.shuoming>div.danjia>div>a:hover{
+  color:rgb(100, 96, 96);
+  border:1px solid #9E0028;
+}
+/*按钮属性*/
+.bton{
+  width:25px;
+}
+.input{
+  width:30px;
+  text-align: center;
+}
+/*购物车区域*/
+.cart{
+  height:77px;
+  width:1400px;
+  display: flex;
+  justify-content: space-between;
+}
+.fuwu{
+  display: flex;
+  justify-content: space-between;
+  height:50px;
+  margin-top:10px;
+}
+.fuwu>div{
+  margin-left:15px;
+}
+.fuwu>div>img{
+  margin:0;
+}
+.total>button{
+  width:180px;
+  height:40px;
+  margin-left:10px;
+  margin-top:10px;
+  outline: none;
+}
+.total-1{
+  background-color: #fff;
+  border:1px solid #9E0028;
+  color:#9E0028;
+}
+.total-1:hover{
+  background-color: rgb(250, 239, 239);
+}
+.total-2{
+  background-color:#9E0028;
+  color:#fff;
+  border:1px solid #9E0028; 
+}
+/*轮播图样式*/
+#box>div>ul>li>a>img{
+  margin:0;
+}
+#box {
+  width: 1400px;
+  margin: 20px auto;
+  height:550px;
+  }
+.slide {
+  height:550px;
+  position: relative;
+  }
+   .slide ul {
+  height: 100%;
+  }
+  .slide li {
+  position: absolute;
+  left:200px;
+  top:0;
+  }
+  .slide li img{
+  width: 450px;
+  }
+  .arraw {
+  opacity: 0;
+  }
+  .arraw a {
+  width: 70px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -55px;
+  z-index: 999;
+  }
+   .next {
+  background: url(../image/shouye/header/right.png) no-repeat;
+  right: 10px;
+  }
+  .prev {
+  background: url(../image/shouye/header/left.png) no-repeat;
+  left: 10px;
+  }

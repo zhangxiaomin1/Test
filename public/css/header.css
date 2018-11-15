@@ -1,0 +1,135 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width:1950px;
+    margin:0 auto;
+}
+/*--------------导航条---------*/
+.header-top{
+    height:30px;
+    background:#444444;
+    position:relative;
+}
+.header-nav1{
+    margin-left:5%;
+    position: absolute;
+    width:70%;
+
+}
+.header-nav1 a{
+    font-size:13px;
+    color:silver;
+   /* margin-right:30px;*/
+    text-decoration:none;
+    display:inline-block;
+    position: relative;
+    width:12%;
+    text-align: center;
+}
+.header-nav1 a:hover{
+    color:#fff;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.header-nav2{
+    display: inline-block;
+    margin-right:5%;
+}
+/*------今日金价---------*/
+.header-nav2-1{
+    display:inline-block;
+    background:#F0B60A;
+    height:30px;
+    width:120px;
+    margin-right:50px;
+}
+.header-nav2-1 a{
+    display: block;
+    margin:5px;
+    text-align: center;
+    font-size:12px;
+    text-decoration:none;
+}
+/*-----注册 登录-----------*/
+.header-nav2-2{
+    display:inline-block;
+}
+.header-nav2-2>span>a{
+    font-size: 12px;
+    margin-right:10px;
+    text-decoration:none;
+}
+/*--------导航栏------------------------*/
+.logo_style{
+    width:100%;
+    height:130px;
+    background:#F6F6F6;
+    position: relative;
+}
+img{
+    margin:10px 49%;
+}
+
+.nav{
+    width:100%;
+    height:40px;
+    position: relative;
+}
+.nav-caption{
+    width:70%;
+    margin-left:80px;
+    height:100%;
+
+}
+.nav a{
+    color:#424243;
+    text-decoration:none;
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    width: 12%;
+
+}
+#dingzhi{
+    width:13%;
+}
+/* **********************搜索框**********************************/
+.search{
+    width:230px;
+    height:30px;
+    position:relative;
+    margin-right: 20px;
+    z-index: 91;
+}
+.search label{
+    position:absolute;
+    font-size: 12px;
+    color:rgb(187,187,187);
+    top:8px;
+    left:10px;
+    line-height:16px;
+}
+.search-text{
+    width:200px;
+    height:30px;
+    outline:none;
+    border:0;
+}
+.header-nav2-2>a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    outline: none;
+    cursor: pointer;
+    border:0;
+    background:#FFFFFF;
+    background-image: url(../image/shouye/header/search.png);
+}

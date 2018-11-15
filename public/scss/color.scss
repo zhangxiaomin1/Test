@@ -1,0 +1,30 @@
+$hover_color:#9E0028;
+.nav a:hover{
+  color:$hover_color;
+}
+#a1{
+  color:$hover_color;
+}
+.header-nav2-1 a{
+  color:#000000;
+}
+.header-nav2-1:hover{
+  background:#fff;
+}
+.header-nav2-2>span>a{
+  color:silver;
+  &:hover{color: rgb(255, 255, 255);}
+}
+.search{
+  border: 1px solid rgb(229, 229, 229);
+  border-image: initial;
+}
+.header-nav2-2>a:hover{
+  background-color:$hover_color;
+}
+$footer_background_color:#A7C1AE;
+#footer{
+  background:#A7C1AE;
+}
+.footer a:hover {
+  color:$hover_color; }
